@@ -1,8 +1,8 @@
 \ir ./common.psqlrc
 
-\set prompt_db_name PRODUCTION
+\set prompt_environment PRODUCTION
 
-\set PROMPT1 '%[%033[0;31m%]%:prompt_db_name:%[%033[0m%]|%/%R>'
-\set PROMPT2 '%[%033[0;31m%]%:prompt_db_name:%[%033[0m%]|%/%R>'
+\set PROMPT1 '%[%033[0;31m%]%:prompt_environment:%[%033[0m%]|%/%R>'
+\set PROMPT2 '%[%033[0;31m%]%:prompt_environment:%[%033[0m%]|%/%R>'
 
 select; -- weird init to bypass bad first prompt in psql 9.6

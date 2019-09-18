@@ -1,5 +1,5 @@
 \timing
 set client_encoding to 'UTF8';
 
-\set PROMPT1 '%:prompt_db_name:|%/%R>'
-\set PROMPT2 '%:prompt_db_name:|%/%R>'
+\set PROMPT1 '%:prompt_environment:|%/%R>'
+\set PROMPT2 '%:prompt_environment:|%/%R>'

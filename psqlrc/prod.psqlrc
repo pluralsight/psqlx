@@ -1,3 +1,3 @@
 \ir ./common.psqlrc
 
-\set prompt_db_name readreplica
+\set prompt_environment readreplica
