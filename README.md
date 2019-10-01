@@ -23,8 +23,9 @@ Docker
 ## Setup
 
 ### PowerShell
+
 1. Clone
-2. Update your chosen prerequisite and the path below and add these lines to your `$profile`
+2. Update your chosen prerequisite (see the [tradeoffs between psql and Docker](powershell-psql-docker-tradeoffs.md)) and the path below and add these lines to your `$profile`
    - 💡 Open your profile with `notepad $profile` from PowerShell if you are new to this
 	```
 	$psqlxRunner = "docker" # or "psql"
